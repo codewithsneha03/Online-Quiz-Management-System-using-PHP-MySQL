@@ -58,6 +58,7 @@ if(isset($_POST['update_quiz'])) {
 <form method="post">
 
 <?php if($edit_mode){ ?>
+<label>Quiz ID</label><br>
     <input type="hidden" name="quiz_id" value="<?php echo $edit_data['quiz_id']; ?>">
 <?php } ?>
 
